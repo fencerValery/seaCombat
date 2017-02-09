@@ -3,10 +3,10 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.awt.*;
 import java.io.*;
-/**
- *
- * @author 1
- */
+
+
+
+
 public class GuiMy{
     
     
@@ -2412,21 +2412,8 @@ for (int i = 0; i < playfild.length; i++)
 public   void seaCombatGui(int[][] playfild, int xpush, int ypush) 
 {
   
- 
-  
-
-
- 
- 
- 
  System.out.println("make the course"); 
- lab1.setText("make the course");
- 
- 
-    
-    
-   
-    
+ lab1.setText("make the course");    
      System.out.println(ypush);
      System.out.println(xpush);
     if (playfild[xpush][ypush] == 999)
